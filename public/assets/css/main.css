@@ -5790,7 +5790,7 @@ body .ui-tooltip {
 }
 .tp-hero-thumb-logo .el {
   left: -3%;
-  top: 48%;
+  top: 25%;
   z-index: 1;
 }
 .tp-hero-thumb-logo .woo {
@@ -6479,6 +6479,7 @@ body .ui-tooltip {
 .tp-hero-thumb-logo .first {
   width: 80px;
   height: 80px;
+  top: 25%;
 }
 .tp-hero-thumb-logo .second {
   width: 170px;
@@ -6490,6 +6491,13 @@ body .ui-tooltip {
   border-radius: 0%;
   height: 100px;
   object-fit: cover;
+}
+.tp-hero-thumb-logo .four {
+  left: -3%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  width: 200px;
 }
 .tp-plugin-item .tp-plugin-icon img {
   width: 85px;

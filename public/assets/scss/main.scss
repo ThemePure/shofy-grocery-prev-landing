@@ -1,3 +1,16 @@
 @forward 'theme';
 @forward 'components';
 @forward 'layout';
+
+.tp-hero-thumb-logo .el {
+    left: -6%;
+    top: 10%;
+    z-index: 1;
+}
+
+.tp-hero-thumb-logo .four {
+    left: -11%;
+    position: absolute;
+    top: 34%;
+    width: 200px;
+}

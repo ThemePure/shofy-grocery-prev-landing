@@ -87,10 +87,10 @@ const Home = () => {
                 <div className="col-xl-3 col-lg-3 col-6">
                     <div className="tp-header-right d-flex align-items-center justify-content-end">
                         <div className="tp-header-btn text-end d-none d-sm-block">
-                            <a target="_blank" href="https://themeforest.net/item/shofy-ecommerce-nextjs-template/45884638?s_rank=1" className="tp-purchase-btn">
+                            <a target="_blank" href="https://themeforest.net/item/shofy-grocery-ecommerce-next-js-template/54323549?s_rank=6" className="tp-purchase-btn">
                                 <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M11.5414 0.816389C9.67272 -1.37567 3.62548 2.87 3.67449 8.34315C3.67404 8.37657 3.66703 8.40932 3.65394 8.44003C3.64101 8.47058 3.6223 8.49835 3.59883 8.52179C3.57541 8.54545 3.54755 8.56426 3.51685 8.57712C3.48636 8.59022 3.45361 8.59722 3.42041 8.59767C3.39828 8.59745 3.3766 8.59451 3.35537 8.58864C3.33414 8.583 3.31381 8.57441 3.29484 8.56357C3.27587 8.55273 3.25825 8.53941 3.24244 8.52405C3.22686 8.50869 3.21308 8.49153 3.20179 8.47278C3.04822 8.13785 2.92626 7.78937 2.83796 7.43163C2.74965 7.07389 2.69522 6.7087 2.67557 6.3408C2.6557 5.9729 2.6706 5.60387 2.72006 5.23867C2.7693 4.87371 2.85309 4.51393 2.96985 4.16455C2.98747 4.11283 2.98656 4.0566 2.96714 4.00533C2.94798 3.95411 2.91163 3.91113 2.8643 3.88374C2.81697 3.85634 2.7616 3.84624 2.70764 3.85514C2.65389 3.86418 2.60466 3.89128 2.56852 3.93238C2.31941 4.1982 2.09583 4.48706 1.9007 4.79489C1.70557 5.10271 1.54002 5.42816 1.40587 5.76715C1.27194 6.10611 1.17009 6.45688 1.10165 6.81485C1.03342 7.17294 0.998937 7.53664 0.998668 7.90117C0.98986 8.67469 1.1353 9.44211 1.42687 10.1585C1.71834 10.8746 2.14995 11.5253 2.69635 12.0723C3.24262 12.6192 3.89269 13.0513 4.60836 13.3434C5.32387 13.6352 6.09053 13.7808 6.8632 13.7718C15.1133 13.5843 13.2092 2.77176 11.5414 0.816389Z" fill="currentColor"/>
-                                </svg> Buy Shofy $17
+                                </svg> Buy Shofy $19
                             </a>
                         </div>
                         <div className="tp-header-action-item tp-header-hamburger ml-20 d-lg-none">
@@ -138,8 +138,12 @@ const Home = () => {
                     <div className="tp-hero-thumb-wrapper p-relative z-index-1">
                         <div className="tp-hero-thumb-logo">
                             <img className="el first " style={{borderRadius: "none"}} src="/assets/img/hero/logo/next-js.png" alt="" data-parallax='{"y": -100, "smoothness": 10}' />
-                            <img className="woo second next_js" style={{borderRadius: "none"}} src="/assets/img/hero/logo/express.png" alt="" data-parallax='{"y": -100, "smoothness": 10}' />
-                            <img className="wp third next_js" src="/assets/img/hero/logo/m-db.png" alt="" data-parallax='{"y": -100, "smoothness": 10}' />
+
+                            <img className="woo second next_js" style={{borderRadius:
+                                 "none"}} src="/assets/img/hero/logo/express.png" alt="" data-parallax='{"y": -100, "smoothness": 10}' />
+                            <img className="wp third next_js" src="/assets/img/hero/logo/my-sql.png" alt="" data-parallax='{"y": -100, "smoothness": 10}' />
+
+                            <img className="four mongo" src="/assets/img/hero/logo/mongo-db.png" alt="" data-parallax='{"y": -100, "smoothness": 10}' />
                         </div>
                         <div className="tp-hero-main-img w-img">
                             <Link href="https://shofy-grocery-next-js.vercel.app/" target='_blank'>
@@ -157,7 +161,7 @@ const Home = () => {
     {/* <!-- hero area emd --> */}
 
      {/* <!-- counter area start --> */}
-     <section className="tp-counter-area grey-bg pb-30">
+     <section className="tp-counter-area grey-bg pb-30 pt-100">
         <div className="container">
             <div className="tp-counter-inner pl-60">
                 <div className="row">
@@ -263,10 +267,20 @@ const Home = () => {
                     <div className="tp-plugin-item text-center grey-bg mb-25" data-bg-color="#F8F8F8">
                         <div className="tp-plugin-icon">
                             <span>
-                                <img src="/assets/img/hero/logo/mongo-db.png" alt="theme-pure" />
+                                <img src="/assets/img/hero/logo/my-sql.png" alt="theme-pure" />
                             </span>
                         </div>
                         <h3 className="tp-plugin-title">MySql</h3>
+                    </div>
+                </div>
+                <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div className="tp-plugin-item text-center grey-bg mb-25" data-bg-color="#F8F8F8">
+                        <div className="tp-plugin-icon">
+                            <span>
+                                <img src="/assets/img/hero/logo/mongo.webp" alt="theme-pure" />
+                            </span>
+                        </div>
+                        <h3 className="tp-plugin-title">MongoDB</h3>
                     </div>
                 </div>
                 <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
@@ -474,10 +488,10 @@ const Home = () => {
                             <p>Flexible, modern, powerful unique sections.</p>
 
                             <div className="tp-footer-btn">
-                                <a target="_blank" href="https://themeforest.net/item/shofy-grocery-ecommerce-next-js-template/54323549?s_rank=1" className="tp-purchase-btn tp-purchase-btn-green">  
+                                <a target="_blank" href="https://themeforest.net/item/shofy-grocery-ecommerce-next-js-template/54323549?s_rank=6" className="tp-purchase-btn tp-purchase-btn-green">  
                                     <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M11.5414 0.816389C9.67272 -1.37567 3.62548 2.87 3.67449 8.34315C3.67404 8.37657 3.66703 8.40932 3.65394 8.44003C3.64101 8.47058 3.6223 8.49835 3.59883 8.52179C3.57541 8.54545 3.54755 8.56426 3.51685 8.57712C3.48636 8.59022 3.45361 8.59722 3.42041 8.59767C3.39828 8.59745 3.3766 8.59451 3.35537 8.58864C3.33414 8.583 3.31381 8.57441 3.29484 8.56357C3.27587 8.55273 3.25825 8.53941 3.24244 8.52405C3.22686 8.50869 3.21308 8.49153 3.20179 8.47278C3.04822 8.13785 2.92626 7.78937 2.83796 7.43163C2.74965 7.07389 2.69522 6.7087 2.67557 6.3408C2.6557 5.9729 2.6706 5.60387 2.72006 5.23867C2.7693 4.87371 2.85309 4.51393 2.96985 4.16455C2.98747 4.11283 2.98656 4.0566 2.96714 4.00533C2.94798 3.95411 2.91163 3.91113 2.8643 3.88374C2.81697 3.85634 2.7616 3.84624 2.70764 3.85514C2.65389 3.86418 2.60466 3.89128 2.56852 3.93238C2.31941 4.1982 2.09583 4.48706 1.9007 4.79489C1.70557 5.10271 1.54002 5.42816 1.40587 5.76715C1.27194 6.10611 1.17009 6.45688 1.10165 6.81485C1.03342 7.17294 0.998937 7.53664 0.998668 7.90117C0.98986 8.67469 1.1353 9.44211 1.42687 10.1585C1.71834 10.8746 2.14995 11.5253 2.69635 12.0723C3.24262 12.6192 3.89269 13.0513 4.60836 13.3434C5.32387 13.6352 6.09053 13.7808 6.8632 13.7718C15.1133 13.5843 13.2092 2.77176 11.5414 0.816389Z" fill="currentColor"/>
-                                </svg> Buy Shofy $17</a>
+                                </svg> Buy Shofy $19</a>
                             </div>
 
                             <div className="tp-footer-copyright">
